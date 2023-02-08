@@ -4,7 +4,7 @@
 }
 
 body {
-    background-color: rgb(11, 163, 163);
+    background-color: #30B6B7;
 }
 
 
@@ -19,11 +19,15 @@ body {
     text-align: center;
     margin-top: 50px;
     color: #000;
+    font-family: 'Lobster', cursive;
+    font-size: 50px;
 }
 
 
 .title {
     color:#2c2929;
+    font-family: 'Lobster', cursive;
+    font-size: 150px;
 }
 
 
@@ -41,10 +45,10 @@ body {
 
 .nav-link {
     text-decoration: none;
-    padding: 10px;
-    background-color: rgb(24, 91, 142);
+    padding: 20px;
+    background-color: #E6984E;
     color:aliceblue;
-    font-style: 20px;
+    font-size: 30px;
     font-weight: bold;
     display: block;
     border-radius: 10px;
@@ -53,14 +57,14 @@ body {
 
 
 .nav-link:hover {
-    background-color: rgb(242, 227, 20);
+    background-color: #FBD594;
     color: rgb(78, 26, 26);
     border: 1px solid rgb(36, 36, 34);
 }
 
 
 .item {
-    width: 483px;
+    width: 480px;
     border: 1px solid #000;
     border-radius: 10px;
     margin-bottom: 50px;
@@ -68,17 +72,16 @@ body {
 
 .item-pic {
     width: 100%;
-    border-radius: 10px 10px 0 0;
+    border-radius: 10px 10px 10px 10px;
 }
 
 
 .item-link {
     display: block;
     padding: 10px;
-    background-color: #fff;
+    background-color: #FBD594;
     border-radius: 0 0 10px 10px;
-    text-decoration: none;
-    text-transform: uppercase;
+    font-size: 40px;
 }
 
 
@@ -92,6 +95,18 @@ body {
 
 h2 {
     margin-top: 50px;
-    text-align: centr;
+    text-align: center;
     text-transform: uppercase;
+    font-family: 'Lobster', cursive;
+    font-size: 50px;
+    color: #025A5B;
+}
+
+.pre {
+    display: block;
+    padding: 30px;
+    background-color: #FBD594;
+    border-radius: 10px 10px 10px 10px;
+    font-size: 25px;
+    font-family: 'Lobster', cursive;
 }
